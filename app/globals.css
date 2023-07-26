@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* Dark Mode Elements */
+    --element-db: 209 23% 22%;
+    /* Dark Mode Background */
+    --bg-vdb: 207 26% 17%;
+    /* Light Mode Text */
+    --text-vdb: 200 15% 8%;
+    /* Light Mode Input */
+    --input-lg: 0 0% 52%;
+    /* Light Mode Background */
+    --bg-vlg: 0 0% 98%;
+    /* Dark Mode Text & Light Mode Elements) */
+    --white: 0 0% 100%;
+  }
+}
