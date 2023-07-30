@@ -17,4 +17,8 @@
     /* Dark Mode Text & Light Mode Elements) */
     --white: 0 0% 100%;
   }
+
+  p {
+    @apply break-words;
+  }
 }
